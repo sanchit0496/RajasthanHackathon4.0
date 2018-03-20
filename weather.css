@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,400,600,700,800');
+
+body {
+  height: 100%;
+  background: #C95E67;
+  /* fallback for old browsers */
+}
+
+h1 {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 29px;
+  color: #C95E67;
+}
+
+.text{
+  font-family: 'Space Mono', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  margin: 40px 0px 10px 0;
+}
+
+.container-button {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 10px;
+}
+
+.weather-icon,
+.title{
+  grid-column: 2/6 ;
+  margin: 0 auto;
+  text-align: center;
+  background: #efefef;
+  border-radius: 4px;
+  padding: 15px 100px;
+ }
+
+.important-info{ 
+  grid-column: 1;
+}
+
+.description-container{
+  background: #efefef;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 850px;
+  margin: 0 auto;
+  padding:20px 0px;
+}
+
+.block-1 {
+  grid-column: 1;
+  padding: 10px;
+  margin-left:80px;
+}
+.block-2{
+  grid-column: 2;
+  padding: 10px;
+}
+.block-3{
+  grid-column: 3;
+  padding: 10px;
+}
+
+.weatherInfo {
+  height: 100%;
+}
+
+.temp-info {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 65px;
+  color: #C95E67;
+  font-weight: 600;
+}
+
+.switch-button {
+  grid-column: 1 1 1;
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  will-change: transform;
+  z-index: 197 !important;
+  cursor: pointer;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  border: 1px solid #efefef;
+  display: inline-block;
+}
+
+.switch-button-case {
+  display: inline-block;
+  background: none;
+  width: 49%;
+  height: 100%;
+  color: #efefef;
+  position: relative;
+  border: none;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-bottom: 1px;
+}
+
+.switch-button-case:hover {
+  color: #151515;
+  cursor: pointer;
+}
+
+.switch-button-case:focus {
+  outline: none;
+}
+
+.active {
+  position: absolute;
+  color: #151515;
+  background-color: #efefef;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  -webkit-transition: .3s ease-out all;
+  transition: .3s ease-out all;
+}
+
+.switch-button .active-case {
+  color: #151515;
+}
+
+.signature {
+  position: fixed;
+  font-family: sans-serif;
+  font-weight: 100;
+  bottom: 10px;
+  left: 0;
+  letter-spacing: 4px;
+  font-size: 10px;
+  width: 100vw;
+  text-align: center;
+  color: #efefef;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header{
+  font-size:40px;
+  color:white;
+  font-family: Gafata;
+  text-align: center;
+  padding:25px;
+}
+.footerclass{
+    font-size: 15px;
+    padding: 15px;
+  margin-top:45px;
+    background-color: whitesmoke;
+    border-top-color: orange;
+    border-top-style: solid;
+    border-top-width: 4px;
+    text-align: center;
+    font-family: "Prompt";
+}

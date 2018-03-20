@@ -1,0 +1,115 @@
+nav{
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: orange;
+}
+.navbar-brand{
+    font-family: 'Aladin', cursive;
+    font-size: 270%;
+    color: black;
+    padding: 0.2%;
+    margin-left: 50px;
+}
+.navbar-nav .nav-item{
+    padding: 2px;
+    margin-left: 60px;
+    font-size: 140%;
+    font-family: 'Prompt';
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+.form-inline .form-control{
+    padding: 10px;
+    font-family: 'Prompt';
+    border-color:gray;
+    border-width: 2px;
+}
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    margin-right: 20px;
+}
+div{
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.header{
+    font-family: "Montez";
+    font-size: 70px;
+    text-shadow: 2px 1px orange;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+.grid-container{
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    display: grid;
+    grid-gap: 4px;
+    padding: 6px;
+    text-align: center;
+    outline-color: lightgray;
+    outline-width: 2px;
+    outline-style: solid;
+    margin-left:80px;
+    margin-right: 80px;
+}
+div{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    font-size: 18px;
+}
+.item1{
+    grid-row: 1/8;
+    grid-column: 1/4;
+}
+img{
+    width: 1050px;
+    height: 600px;
+}
+.item2{
+    grid-row: 1/8;
+    grid-column: 5/7;
+    text-align: left;
+    font-family: "gafata";
+    font-size: 23.4px;
+}
+.extra-info{
+    margin-left:100px;
+    margin-right: 100px;
+}
+.footerclass{
+    font-size: 15px;
+    padding: 15px;
+  margin-top:45px;
+    background-color: whitesmoke;
+    border-top-color: orange;
+    border-top-style: solid;
+    border-top-width: 4px;
+    text-align: center;
+    font-family: "Prompt";
+}
+.location{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: "gafata";
+    font-size: 23.4px;
+}
+.btn{
+    font-family: "gafata"; 
+}
