@@ -2,7 +2,7 @@
 Created for Rajasthan Hackathon 4.0
 BEST VIEWED WITH GOOGLE CHROME 75% ZOOM.
 
-This project involves the use of 'HTML, CSS, JavaScript, AJAX, JSON, BootStrap, Modern Day CSS Grid, Flexbox System and Google Maps and a Live Weather API.
+This project demonstration involves the use of 'HTML, CSS, JavaScript, AJAX, JSON, BootStrap, Modern Day CSS Grid, Flexbox System and Google Maps and a Live Weather API'.
 
 I have created three files for the project demonstration. The first one is named web2.html. And this is the home page of the website.
 
